@@ -50,6 +50,6 @@ suite_end () {
 suite_start
         print_test_case "It can run a Jenkins server:"
                 docker run --name test-jenkins -p 8080:8080 -d "quay.io/ibmz/jenkins:2.249.2"
-                ping localhost:8080
+                curl localhost:8080
                 docker rm -f test-jenkins
 suite_end
