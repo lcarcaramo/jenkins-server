@@ -4,7 +4,7 @@
 
 # What is Jenkins
 
-![Jenkins Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/300px-Jenkins_logo_with_title.svg.png)
+![Jenkins Logo](https://raw.githubusercontent.com/docker-library/docs/3ab4dafb41dd0e959ff9322b3c50af2519af6d85/jenkins/logo.png)
 
 Jenkins is an open source build automation tool.
 
