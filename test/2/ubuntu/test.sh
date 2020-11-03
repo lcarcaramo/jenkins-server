@@ -52,5 +52,7 @@ suite_start
                 docker run --name test-jenkins -p 8080:8080 -d "quay.io/ibmz/jenkins:2.249.2"
                 sleep 10s
                 curl localhost:8080
+                print_success "Success! Jenkins is serving a webpage at localhost:8080 which indicates that the server is most likely running and healthy."
+                print_success "Terminating..."
                 docker rm -f test-jenkins
 suite_end
