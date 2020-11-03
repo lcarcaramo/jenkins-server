@@ -4,6 +4,12 @@
 
 # What is Jenkins
 
+![Jenkins Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/300px-Jenkins_logo_with_title.svg.png)
+
+Jenkins is an open source build automation tool.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Jenkins_(software))
+
 # How to Use This Image
 
 Use the following command to spin up a Jenkins server:
