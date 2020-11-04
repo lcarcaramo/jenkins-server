@@ -12,7 +12,7 @@ Jenkins is an open source build automation tool.
 
 # How to Use This Image
 
-Use the following command to spin up a Jenkins server:
+Use the following command to spin up a Jenkins container:
 
 `docker run --name <container_name> -p <host_port>:8080 -d quay.io/ibmz/jenkins:2.249.2`
 
